@@ -1,0 +1,29 @@
+{
+    "name": "linepayamak/laravel",
+    "homepage": "https://github.com/vhidvz/linepayamak-laravel",
+    "description": "A Laravel package to interact with LinePayamak service.",
+    "type": "laravel-package",
+    "keywords": [
+        "laravel",
+        "soap",
+        "sms",
+        "package"
+    ],
+    "authors": [
+        {
+            "name": "Vahid V.",
+            "email": "vhid.vz@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "illuminate/support": ">=6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "LinePayamak\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "license": "MIT"
+}
